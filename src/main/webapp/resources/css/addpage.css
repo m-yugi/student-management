@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: linear-gradient(90deg, #8ECAE682, #219EBC8C);
+}
+
+.container {
+	border: 2px solid #219EBC78;
+	text-align: center;
+	width: 370px;
+	height: 440px;
+	border-radius: 20px;
+	margin: auto;
+	margin-top: 165px;
+	padding-top: 60px;
+	background-color: white;
+	box-shadow: 17px 17px 17px 0px #023047;
+}
+
+.inputs {
+	outline: none;
+	font-family: 'Poppins', sans-serif;
+	margin-top: 18px;
+	height: 30px;
+	width: 240px;
+	border-radius: 5px;
+	border: none;
+	border-bottom: 0.5px solid darkgrey;
+	padding-left: 25px;
+	font-size: 15px;
+	background-color: whitesmoke;
+}
+
+#country {
+	padding-left: 27px;
+}
+
+.label {
+	margin-top: 5px;
+	display: block;
+	width: 200px;
+	font-size: 15px;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	color: #FB8500BF;
+}
+
+.label1 {
+	width: 176px;
+}
+
+.label2 {
+	width: 188px;
+}
+
+.btn {
+	margin-top: 45px;
+	width: 120px;
+	height: 35px;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	cursor: pointer;
+	border-radius: 10px;
+	border: 2px solid #FFB703;
+	background-color: #FB8500B5;
+	color: #023047;
+	box-shadow: 5px 5px 0px 0px #023047;
+	transition: transform 250ms, box-shadow 250ms;
+}
+
+.btn:active {
+	transform: translateY(4px);
+	box-shadow: 0px 0px 0px 0px white;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+.errors {
+	position: absolute;
+	color: red;
+	font-size: 10px;
+	left: 715px;
+}
+
+.firsterror {
+	top: 234px;
+}
+
+.seconderror {
+	top: 311px;
+	left: 707px;
+}
+
+.thirderror {
+	top: 386px;
+}
