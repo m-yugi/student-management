@@ -1,5 +1,5 @@
 # Student Management
- 
+***
 
 ## Overview
 
@@ -27,7 +27,7 @@ This is a student management system developed using JavaEE which has all the CRU
 ## Installation
 
 - To run this code yourself you first need Java on your machine, To install Java you can go to Oracle or you can follow this link [install java](https://www.oracle.com/java/technologies/downloads/).
-After installing  Java you have to set the ```JAVA_HOME``` PATH ( location of Java on the local machine ) in your system Variables in Environment Variables . 
+After installing  Java you have to set the ```JAVA_HOME``` PATH ( location of Java on the local machine ) in your system Variables in Environment Variables. 
 
 - Now that you have Java you can install [maven](https://maven.apache.org/download.cgi) and follow the setup process given [here](https://maven.apache.org/install.html). After following this setup you have to set the ```MAVEN_HOME``` PATH ( location of Maven on the local machine ) in your system Variables in Environment Variables.
 
@@ -39,15 +39,22 @@ After installing  Java you have to set the ```JAVA_HOME``` PATH ( location of Ja
    git clone https://github.com/m-yugi/student-management.git
   ```
 
+After cloning the repo we can open the project in Eclipse and start developing 
+
+- Now we need a Tomcat server to run the code, So to install Tomcat we can go to [Apache Tomcat](https://tomcat.apache.org/download-10.cgi) and install the version needed.
+
+- We also need a database to store the information we get from the webpage, In this project I used [MySQL server](https://dev.mysql.com/downloads/installer/)  and [workbench](https://dev.mysql.com/downloads/workbench/)(optional).
+
+- This will conclude the how to install and run this project 
 
 ## Usage
-Guidelines on how to use the system and its functionalities.
 
-## Additional Information
-Any other relevant information or acknowledgments.
+This is a string-forward application that I think almost all can understand  
 
-## Getting Started
-Steps to get started with the project or to run it locally.
+## Task List
 
-## Screenshots (if applicable)
-Visual representations of the project, if available.
+- [ ] Add a validator to check if the given country is valid or not
+
+***
+
+thank you for taking the time and reading me I hope this helped you set up and run the project
