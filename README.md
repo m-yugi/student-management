@@ -1,5 +1,4 @@
 # Student Management
-***
 
 ## Overview
 
