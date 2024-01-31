@@ -30,7 +30,7 @@ After installing  Java you have to set the ```JAVA_HOME``` PATH ( location of Ja
 
 - Now that you have Java you can install [maven](https://maven.apache.org/download.cgi) and follow the setup process given [here](https://maven.apache.org/install.html). After following this setup you have to set the ```MAVEN_HOME``` PATH ( location of Maven on the local machine ) in your system Variables in Environment Variables.
 
-- Now we have Java and Maven we need an IDE to develop our project the IDE I chose for this project is Eclipse IDE for Enterprise Java and Web Developers, we can also use Intelij or even Visual Studios Code.
+- Now we have Java and Maven we need an IDE to develop our project the IDE I choose for this project is Eclipse IDE for Enterprise Java and Web Developers, we can also use Intelij or even Visual Studios Code.
 
 - Now that all the setup is done we can start the Development by cloning the git repo into the system
 
